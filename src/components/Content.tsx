@@ -16,7 +16,7 @@ const Provider: React.FC = () => {
 
   return (
     <div className="contentparent">
-      <h1>Nuestros Productos</h1>
+      <h2>Nuestros Productos Demo</h2>
       <div className="product-list">
         {Products.map((product) => (
           <div key={product.id} className="product-card">
