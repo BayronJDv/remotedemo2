@@ -4,13 +4,13 @@
   overflow-y: auto;
 }
 
-.contentparent h1 {
+.contentparent h2 {
   text-align: center;
   color: #1a202c;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .product-list {
