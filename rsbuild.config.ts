@@ -16,7 +16,7 @@ export default defineConfig({
     // Si estamos en producción (Vercel), usa tu dominio real.
     // Si estamos en local (dev), usa undefined (que por defecto es la raíz local).
     assetPrefix: process.env.NODE_ENV === 'production' 
-      ? 'https://remotedemo.vercel.app/' 
+      ? 'https://remotedemo2.vercel.app/' 
       : undefined,
   },
 });
