@@ -1,29 +1,17 @@
-# Rsbuild Project
+# Microfrontend: Content (remote2)
 
-## Setup
+Este repositorio es un microfrontend remoto que expone el componente de contenido principal (`Content`), típicamente una lista de productos.
 
-Install the dependencies:
+## Funcionalidad
 
-```bash
-pnpm install
-```
+- Muestra el listado de productos disponibles.
+- Permite interacciones como "Agregar al carrito".
+- Expone el componente `Content` vía Module Federation.
+- Puerto por defecto: 3002.
 
-## Get Started
-
-Start the dev server:
-
-```bash
-pnpm dev
-```
-
-Build the app for production:
+## Ejecución
 
 ```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
+npm install
+npm run dev
 ```
